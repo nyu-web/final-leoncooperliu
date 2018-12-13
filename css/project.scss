@@ -1,0 +1,66 @@
+@import "style";
+
+body {
+    .top {
+        height: 100vh;
+
+        .nav-bar {
+            position: fixed;
+            padding-top: 2.5vh;
+            width: inherit;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 5;
+
+            h3.nav-right {
+                font-size: 1.5rem;
+                text-align: right;
+                color: #949494;
+                margin-bottom: 0;
+            }
+        }
+
+        .top--flex {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-center {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top--flex {
+            position: relative;
+
+            .top__text {
+                color: white;
+                position: absolute;
+                text-align: left;
+                z-index: 1;
+
+                h2 {
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                }
+            }
+
+            img {
+                position: absolute;
+                right: 0;
+                z-index: 0;
+            }
+        }
+    }
+
+    .header--container {
+        margin: 0 auto;
+    }
+
+}

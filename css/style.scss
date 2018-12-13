@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo:700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import url('anim/animate.css');
+@import url('anim/self-define.css');
+
+@font-face {
+    font-family: ProximaNovaB;
+    src: url('fonts/proximanova-bold.otf');
+}
+
+@font-face {
+    font-family: ProximaNovaSB;
+    src: url('fonts/proximanova-semibold.otf');
+}
+
+@font-face {
+    font-family: ProximaNova;
+    src: url('fonts/proximanova-regular.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    video::-webkit-media-controls-panel {
+        display: none !important;
+        -webkit-appearance: none;
+    }
+    
+    
+    video::-webkit-media-controls-play-button {
+        display: none !important;
+        -webkit-appearance: none;
+    }
+    
+    video::-webkit-media-controls {
+        display: none !important;
+        -webkit-appearance: none;
+    }
+    
+    video {
+        pointer-events: none;
+    }
+
+    a {
+        color: unset;
+    }
+
+    p {
+        font-family: ProximaNova;
+    }
+
+    /* Fonts */
+
+    .font--nova-semibold {
+        font-family: ProximaNovaSB;
+    }
+
+    .font--nova-bold {
+        font-family: ProximaNovaB;
+    }
+
+    .font--nova {
+        font-family: ProximaNova;
+    }
+
+    .font--cardo {
+        font-family: cardo;
+    }
+
+    .font--lato {
+        font-family: lato;
+    }
+
+    .font--oswald {
+        font-family: oswald;
+    }
+
+    .sitemap {
+        .sitemap--flex {
+            .sitemap__card {
+                height: auto;
+                border: 0;
+                background-color: transparent;
+
+                h3 {
+                    margin: 0;
+                }
+
+                ls {
+                    display: block;
+                    color: #828282;
+                }
+
+                .sitemap__icon {
+                    width: 200px;
+                }
+            }
+        }
+    }
+
+    .bg-color-black {
+        background-color: black;
+    }
+
+    .bg-color-dark {
+        background-color: #1B1B1B;
+    }
+
+    .bg-color-grey {
+        background-color: #FAFAFA;
+    }
+
+    .bg-color-light {
+        background-color: #FEFEFE;
+    }
+
+    .bg-color-white {
+        background-color: red;
+    }
+
+    .bg-image-gala {
+        background-image: url(../img/next-project-gala.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-dancer {
+        background-image: url(../img/next-project-dancer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-long {
+        background-image: url(../img/next-project-long.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-kathy {
+        background-image: url(../img/next-project-kathy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-near {
+        background-image: url(../img/next-project-near.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bg-image-shadows {
+        background-image: url(../img/next-project-shadows.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .nav--container {
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    a {
+        z-index: 10;
+    }
+
+    .text--pointer {
+        cursor: pointer;
+    }
+
+    margin: 0;
+}

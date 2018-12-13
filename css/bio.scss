@@ -1,0 +1,35 @@
+@import "style";
+@import "project";
+
+body {
+    .top {
+        h2 {
+            margin-bottom: 0;
+        }
+    }
+
+    .bio {
+        .bio__section {
+            .bio--main {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            .bio__left {
+                p {
+                    color: #727272;
+                }
+            }
+
+            .bio__right {
+                text-align: left;
+                display: grid;
+            }
+        }
+
+        .bio--bottom {
+            margin-bottom: 100px;
+        }
+    }
+
+}

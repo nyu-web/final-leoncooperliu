@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,kBAAc;EACV,eAAe,EAAE,GAAG;AAGxB,kBAAc;EACV,eAAe,EAAE,GAAG;AAGxB,kBAAc;EACV,eAAe,EAAE,GAAG",
+"sources": ["self-define.scss"],
+"names": [],
+"file": "self-define.css"
+}

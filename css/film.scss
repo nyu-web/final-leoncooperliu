@@ -1,0 +1,48 @@
+@import "project";
+
+body {
+    .top-film-gala {
+        background-image: url(../mp4/film-gala.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .top {
+        height: 100vh;
+
+        .video--center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+
+            h3 {
+                color: white;
+                text-decoration: underline;
+            }
+        }
+
+        video {
+            z-index: 0;
+            width: 100%;
+        }
+    }
+
+    .main {
+        color: white;
+
+        h2 {
+            letter-spacing: 0.1rem;
+        }
+
+
+        .video {
+            iframe {
+                width: 100%;
+            }
+        }
+
+    }
+}

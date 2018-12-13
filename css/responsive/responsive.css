@@ -1,0 +1,111 @@
+@media (min-width: 300px) {
+  .container {
+    max-width: 93vw; }
+
+  .sitemap .sitemap--flex {
+    margin: 0 auto;
+    height: 150px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    .sitemap .sitemap--flex h3 {
+      font-size: 1.5rem; }
+    .sitemap .sitemap--flex ls {
+      font-size: .6rem; }
+    .sitemap .sitemap--flex .card--margin {
+      margin-bottom: 5px; }
+
+  .next-project {
+    height: 180px; }
+    .next-project .hero-next {
+      height: 140px; }
+
+  .info {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .info .info--grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      color: white; }
+      .info .info--grid .info__card {
+        margin-bottom: 10px; }
+        .info .info--grid .info__card h3 {
+          font-size: .8rem; }
+        .info .info--grid .info__card h4 {
+          font-size: 1rem; }
+
+  #back-icon {
+    width: 25px;
+    z-index: 3; } }
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; }
+
+  .sitemap .sitemap--flex h3 {
+    font-size: 1.7rem; }
+  .sitemap .sitemap--flex ls {
+    font-size: .8rem; }
+
+  .next-project {
+    height: 250px; }
+    .next-project .hero-next {
+      height: 200px; }
+
+  .info--grid .info__card {
+    margin-bottom: 10px; }
+    .info--grid .info__card h3 {
+      font-size: 1rem; }
+    .info--grid .info__card h4 {
+      font-size: 1.2rem; }
+
+  #back-icon {
+    width: 35px; } }
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; }
+
+  .sitemap .sitemap--flex {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .sitemap .sitemap--flex h3 {
+      font-size: 2rem; }
+    .sitemap .sitemap--flex ls {
+      font-size: 1rem; }
+    .sitemap .sitemap--flex .card--margin {
+      margin-bottom: 10px; }
+
+  .next-project {
+    height: 340px; }
+    .next-project .hero-next {
+      height: 280px; }
+
+  #back-icon {
+    width: 45px; } }
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; }
+
+  .next-project {
+    height: 400px; }
+    .next-project .hero-next {
+      height: 350px; }
+
+  .info {
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    .info .info--grid {
+      display: flex;
+      justify-content: space-between;
+      color: white; } }
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1150px; }
+
+  .next-project {
+    height: 650px; }
+    .next-project .hero-next {
+      height: 550px; } }
+
+/*# sourceMappingURL=responsive.css.map */
